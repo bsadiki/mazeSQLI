@@ -1,10 +1,9 @@
 package com.recruitment.maze;
 
 
-import com.recruitment.maze.entities.Maze;
-import com.recruitment.maze.exceptions.ClosedDoorException;
-import com.recruitment.maze.exceptions.DoorAlreadyClosedException;
-import com.recruitment.maze.exceptions.IllegalMoveException;
+import com.recruitment.maze.door.exceptions.ClosedDoorException;
+import com.recruitment.maze.door.exceptions.DoorAlreadyClosedException;
+import com.recruitment.maze.door.exceptions.IllegalMoveException;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
