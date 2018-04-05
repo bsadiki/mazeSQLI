@@ -30,8 +30,4 @@ public class Room {
         return name;
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        return (obj instanceof Room) && (this.name.equals(((Room) obj).name));
-    }
 }
