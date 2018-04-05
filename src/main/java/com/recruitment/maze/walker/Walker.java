@@ -25,7 +25,7 @@ public class Walker {
 
     public void goToRoom(Room destinationRoom) throws IllegalMoveException, ClosedDoorException {
         Room actualRoom = getActualRoom();
-        Gate gate = actualRoom.gateBetweenOtherRoom(destinationRoom);
+        Gate gate = actualRoom.gateBetween(destinationRoom);
         checkValidGate(gate);
         checkOpenedGate(gate);
         crossedRooms.add(destinationRoom);
@@ -45,7 +45,7 @@ public class Walker {
 
 
     public void closeLastDoor() throws DoorAlreadyClosedException {
-        Gate gate = getActualRoom().gateBetweenOtherRoom(getPreviousRoom());
+        Gate gate = getActualRoom().gateBetween(getPreviousRoom());
         if (gate.isClosed())
             throw new DoorAlreadyClosedException();
         gate.close();

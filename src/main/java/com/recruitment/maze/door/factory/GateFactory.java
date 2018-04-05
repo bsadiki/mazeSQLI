@@ -4,8 +4,8 @@ import com.recruitment.maze.door.Gate;
 import com.recruitment.maze.door.SensorGate;
 import com.recruitment.maze.door.SimpleGate;
 
-import static com.recruitment.maze.config.Configuration.SIMPLE_GATE;
 import static com.recruitment.maze.config.Configuration.SENSOR_GATE;
+import static com.recruitment.maze.config.Configuration.SIMPLE_GATE;
 
 public class GateFactory {
     public Gate createGate(String gateType, String room1, String room2) {

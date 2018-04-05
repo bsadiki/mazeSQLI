@@ -18,7 +18,7 @@ public class Room {
         gates.add(gate);
     }
 
-    public Gate gateBetweenOtherRoom(Room room) {
+    public Gate gateBetween(Room room) {
         for (Gate gate : gates) {
             if (gate.betweenRooms(this.name, room.name))
                 return gate;
