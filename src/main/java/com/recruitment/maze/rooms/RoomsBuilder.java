@@ -1,13 +1,13 @@
-package com.recruitment.maze.door;
+package com.recruitment.maze.rooms;
 
-import com.recruitment.maze.room.Room;
+import com.recruitment.maze.door.Gate;
 import com.recruitment.maze.door.factory.GateFactory;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
 public class RoomsBuilder {
-    private GateFactory gateFactory;
+    private final GateFactory gateFactory;
     private final HashMap<String, Room> rooms;
 
     public RoomsBuilder() {
@@ -15,11 +15,11 @@ public class RoomsBuilder {
         rooms = new HashMap<>();
     }
 
-    public HashMap<String, Room> build(String... doors) {
+    public Rooms build(String... doors) {
         for (String door : doors) {
             buildRoomsAndDoor(door);
         }
-        return rooms;
+        return new Rooms(rooms);
     }
 
     private void buildRoomsAndDoor(String rooms) {

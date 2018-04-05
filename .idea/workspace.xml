@@ -2,42 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="257a1db3-bc7a-4378-834a-22b1fd816d9b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/WalkerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/RoomsBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/SensorGate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/SimpleGate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_1_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maze.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Gate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/SensorGate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/SimpleGate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Walker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Walker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/factory/GateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/factory/GateFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recruitment/maze/config/Configuration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recruitment/maze/entities/Gate.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/rooms/Rooms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/RoomsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/rooms/RoomsBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/rooms/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/walker/Walker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/recruitment/maze/walker/Walker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/recruitment/maze/entities/Maze.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/recruitment/maze/entities/Room.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recruitment/maze/entities/SensorGate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recruitment/maze/entities/SimpleGate.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/recruitment/maze/entities/Walker.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/recruitment/maze/exceptions/ClosedDoorException.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/recruitment/maze/exceptions/DoorAlreadyClosedException.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/recruitment/maze/exceptions/IllegalMoveException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recruitment/maze/factory/GateFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/recruitment/maze/MazeTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,125 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Maze.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Maze.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#1181#1182#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WalkerBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/WalkerBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoomsBuilder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/RoomsBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Room.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding>
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/Gate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-              <folding>
-                <element signature="method#Gate#0;class#Gate#0" />
-                <element signature="method#betweenRooms#0;class#Gate#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Walker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Walker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-              <folding>
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1133#1134#0" expanded="true" />
-                <element signature="e#1871#1872#0" expanded="true" />
-                <element signature="e#1935#1936#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SensorGate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/SensorGate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleGate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/SimpleGate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -191,6 +49,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/recruitment/maze/RoomsBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/recruitment/maze/WalkerBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Maze.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recruitment/maze/walker/WalkerBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recruitment/maze/room/Room.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recruitment/maze/room/Rooms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recruitment/maze/rooms/Rooms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recruitment/maze/Maze.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recruitment/maze/rooms/RoomsBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recruitment/maze/walker/Walker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recruitment/maze/config/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/Gate.java" />
       </list>
     </option>
   </component>
@@ -258,33 +125,6 @@
               <item name="maze" type="b2602c69:ProjectViewProjectNode" />
               <item name="mazeSQLIChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="maze" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mazeSQLIChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="maze" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mazeSQLIChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="maze" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mazeSQLIChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -315,8 +155,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/recruitment/maze" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.recruitment.maze" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -341,7 +187,7 @@
       <module name="maze" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.recruitment.maze.door.*" />
+          <option name="PATTERN" value="com.recruitment.maze.rooms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,17 +277,19 @@
       <workItem from="1520008102539" duration="4000" />
       <workItem from="1520250761870" duration="1463000" />
       <workItem from="1521561595910" duration="237000" />
-      <workItem from="1522935121637" duration="6649000" />
+      <workItem from="1522935121637" duration="7946000" />
     </task>
+    <task id="LOCAL-00001" summary="some refactor">
+      <created>1522941904873</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522941904873</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MazeTest - 2018.04.05 at 15h 52m 38s.xml">
-      <configuration name="MazeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MazeTest - 2018.04.05 at 15h 55m 26s.xml">
-      <configuration name="MazeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MazeTest - 2018.04.05 at 15h 58m 46s.xml">
       <configuration name="MazeTest" configurationId="JUnit" />
     </history-entry>
@@ -466,9 +314,15 @@
     <history-entry file="MazeTest - 2018.04.05 at 16h 21m 01s.xml">
       <configuration name="MazeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MazeTest - 2018.04.05 at 16h 23m 00s.xml">
+      <configuration name="MazeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MazeTest - 2018.04.05 at 16h 41m 33s.xml">
+      <configuration name="MazeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8402000" />
+    <option name="totallyTimeSpent" value="9699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -482,13 +336,14 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32881" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32881" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32985386" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25744212" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25744212" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32985386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -500,7 +355,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,6 +362,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="some refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="some refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -525,7 +383,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Maze.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/Maze.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
@@ -539,7 +397,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Room.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/rooms/Room.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -563,7 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Maze.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/Maze.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
@@ -577,7 +435,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Room.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/rooms/Room.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -638,50 +496,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Room.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/rooms/Rooms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Walker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-          <folding>
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1871#1872#0" expanded="true" />
-            <element signature="e#1935#1936#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/WalkerBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/rooms/RoomsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/walker/WalkerBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
             <element signature="e#160#161#0" expanded="true" />
             <element signature="e#230#231#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/entities/Maze.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/config/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/Maze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#454#455#0" expanded="true" />
@@ -692,36 +550,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/SimpleGate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/rooms/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/SensorGate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/walker/Walker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/Gate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="method#Gate#0;class#Gate#0" />
             <element signature="method#betweenRooms#0;class#Gate#0" />
@@ -729,13 +578,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/RoomsBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/SimpleGate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/SensorGate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/exceptions/ClosedDoorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/exceptions/DoorAlreadyClosedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recruitment/maze/door/exceptions/IllegalMoveException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package com.recruitment.maze.room;
+package com.recruitment.maze.rooms;
 
 import com.recruitment.maze.door.Gate;
 
@@ -9,21 +9,12 @@ public class Room {
     private final List<Gate> gates;
 
 
-    public Room(String name, List<Gate> gates) {
+    Room(String name, List<Gate> gates) {
         this.gates = gates;
         this.name = name;
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        return (this.name.equals(((Room) obj).name));
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void addGate(Gate gate) {
+    void addGate(Gate gate) {
         gates.add(gate);
     }
 
@@ -33,5 +24,14 @@ public class Room {
                 return gate;
         }
         return null;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return (obj instanceof Room) && (this.name.equals(((Room) obj).name));
     }
 }

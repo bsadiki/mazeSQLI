@@ -4,17 +4,17 @@ import com.recruitment.maze.door.Gate;
 import com.recruitment.maze.door.exceptions.ClosedDoorException;
 import com.recruitment.maze.door.exceptions.DoorAlreadyClosedException;
 import com.recruitment.maze.door.exceptions.IllegalMoveException;
-import com.recruitment.maze.room.Room;
+import com.recruitment.maze.rooms.Room;
 
 import java.util.List;
 
 import static com.recruitment.maze.config.Configuration.SEPARATOR;
 
 public class Walker {
-    private List<Room> crossedRooms;
-    private List<String> crossedSensorGates;
+    private final List<Room> crossedRooms;
+    private final List<String> crossedSensorGates;
 
-    public Walker(List<Room> crossedRooms, List<String> crossedSensorGates) {
+    Walker(List<Room> crossedRooms, List<String> crossedSensorGates) {
         this.crossedRooms = crossedRooms;
         this.crossedSensorGates = crossedSensorGates;
     }
@@ -59,7 +59,7 @@ public class Walker {
         return crossedRooms.get(crossedRooms.size() - 2);
     }
 
-    void addToSensorGate(Room actualRoom, Room destinationRoom) {
+    private void addToSensorGate(Room actualRoom, Room destinationRoom) {
         crossedSensorGates.add(actualRoom.getName().concat(destinationRoom.getName()));
     }
 
